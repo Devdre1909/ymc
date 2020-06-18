@@ -29,17 +29,17 @@
     <div class="intro" style="background-color: #1976D2; padding: 4rem 3rem">
       <mdb-container class="my-3">
         <p class="text-justify text-white text-break" style="line-height: 1.7rem">
-          Hello friend, how are you? I trust that you're staying safe. Today i'm reviewing a product called
+          Hey guys, how are you? I trust that you're staying safe. Today i'm reviewing a product called
           <a
             :href="url"
             target="_blank"
             rel="noopener noreferrer"
-          >{{title}}</a>. This is a product i believe in, the pandemic has kept us indoors for months and people are spending their time on youtube, views have increased by about 75%. It's the number 1 video platform in the world and (the second most viewed site in the world, with 33.54Billion visits
-          <a
+          >{{title}}</a>. This is a product I strongly believe in. The pandemic has kept us in our homes for months and I know a lot of us now spend almost all our days on internet, on YouTube particularly, because YouTube has seen a 75% rise in view. Think of this! A whole 75%. Now imagine having a YouTube channel and creating valueable content, how much views and subccribers you'll gain. Now's the Time to take on YouTube and start creating content. 33.5billion visits YouTube, you have a large audience for your content.
+          <!-- <a
             href="https://www.similarweb.com/website/youtube.com#overview"
             target="_blank"
             rel="noopener noreferrer"
-          >https://www.similarweb.com/website/youtube.com#overview</a>). Stop watching videos alone. Now is the time to create content, build your brand, increase your views on youtube and make sales, but You need to find a person who knows the business and knows how to help you reach your goals and that person is Adam Payne. He loves youtube and has been using it for 8 years. He's great at teaching and explaining his course, no surprise, because he was once a teacher. You really need to check out what Adam has to offer and give yourself a winning chance.
+          >https://www.similarweb.com/website/youtube.com#overview</a>). --> You're bound to be successful if you do it right, and there's no other way to do it right than applying the techniques that Adam Payne has laid down for you in his course. Adam Payne is a lover a YouTube, he has been into YouTube for more than 8 years, he's an advocate against sub-sta ndard course content and has redefined his old YouTube mastery course to follow the current trends in the video marketing world. He's great at teaching his course. No surprise because he was once a teacher. You really need to check out what Adam has to offer and give yourself a winning Chance
         </p>
         <mdb-btn class="d-block text-center mx-auto my-3" color="orange">
           <a :href="url" target="_blank" rel="noopener noreferrer">Purchase your product here</a>
@@ -167,7 +167,7 @@
     <div style="padding: 4rem 4rem">
       <mdb-container>
 
-        <h2 class="mt-3 red">I HAVE GOT THIS GREAT BONUS FOR YOU WENT PURCHASE YOUR PRODUCT</h2>
+        <h2 class="mt-3 red">I HAVE GOT THESE GREAT BONUSES FOR YOU WENT PURCHASE YOUR PRODUCT</h2>
         <mdb-row>
           <mdb-col md="3" sm="6">
             <img
@@ -330,4 +330,3 @@ li {
   background-color: transparent !important;
 }
 </style>
-
