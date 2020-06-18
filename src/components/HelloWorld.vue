@@ -4,10 +4,10 @@
       <mdb-navbar-brand href="#">Toluwanimi Daniel</mdb-navbar-brand>
     </mdb-navbar>
     <mdb-jumbotron
-      class="mb-0 text-left"
+      class="mb-0 text-center"
       style="background-image: url(../assets/images/blogpost.jpeg)"
     >
-      <h2 class="card-title h2">{{title}}</h2>
+      <h2 class="red h2">{{title}}</h2>
       <p class="blue-text my-4 font-weight-bold">Get Early Access | {{new Date().toDateString()}}</p>
       <mdb-row class="d-flex justify-content-center">
         <mdb-col xl="7" class="pb-2">
@@ -22,7 +22,7 @@
         </mdb-col>
       </mdb-row>
       <hr class="my-4" />
-      <mdb-btn color="blue" icon="gem" iconRight>
+      <mdb-btn color="orange" icon="gem" iconRight>
         <a :href="url" target="_blank" rel="noopener noreferrer">Purchase Now</a>
       </mdb-btn>
     </mdb-jumbotron>
@@ -41,7 +41,7 @@
             rel="noopener noreferrer"
           >https://www.similarweb.com/website/youtube.com#overview</a>). Stop watching videos alone. Now is the time to create content, build your brand, increase your views on youtube and make sales, but You need to find a person who knows the business and knows how to help you reach your goals and that person is Adam Payne. He loves youtube and has been using it for 8 years. He's great at teaching and explaining his course, no surprise, because he was once a teacher. You really need to check out what Adam has to offer and give yourself a winning chance.
         </p>
-        <mdb-btn class="d-block text-center mx-auto my-3" color="blue">
+        <mdb-btn class="d-block text-center mx-auto my-3" color="orange">
           <a :href="url" target="_blank" rel="noopener noreferrer">Purchase your product here</a>
         </mdb-btn>
       </mdb-container>
@@ -73,7 +73,7 @@
     </div>
     <div style="background-color: #333; padding: 4rem 1rem" class="text-white">
       <mdb-container class="p-4">
-        <h3 class="text-left text-capitalize mb-2">What your will learn</h3>
+        <h3 class="text-left text-capitalize mb-2">What you will learn</h3>
         <hr class="mb-5" />
         <mdb-row>
           <mdb-col md="6" sm="12">
@@ -155,17 +155,19 @@
             </mdb-card>
           </mdb-col>
         </mdb-row>
-        <mdb-btn class="d-block text-center mx-auto my-3" color="black">
+        <mdb-btn class="d-block text-center mx-auto my-3" color="orange">
           <a :href="url" target="_blank" rel="noopener noreferrer">Purchase your product here</a>
         </mdb-btn>
+        <p
+          class="text-white text-justify"
+          style="line-height: 1.7rem"
+        >There are two upgrades to this frontend product. One of them is the PLAYLIST MASTERY. It covers everything from understanding how to silo playlists to optimizing them for traffic. Then there is the DISCOVERY MASTERY that teaches how to explode your growth with simple Youtube Discovery ads</p>
       </mdb-container>
     </div>
     <div style="padding: 4rem 4rem">
       <mdb-container>
-        <p
-          style="line-height: 1.7rem"
-        >There are two upgrades to this frontend product. One of them is the PLAYLIST MASTERY. It covers everything from understanding how to silo playlists to optimizing them for traffic. Then there is the DISCOVERY MASTERY that teaches how to explode your growth with simple Youtube Discovery ads</p>
-        <h2 class="mt-3">I HAVE GOT THIS GREAT BONUS FOR YOU WENT PURCHASE YOUR PRODUCT</h2>
+
+        <h2 class="mt-3 red">I HAVE GOT THIS GREAT BONUS FOR YOU WENT PURCHASE YOUR PRODUCT</h2>
         <mdb-row>
           <mdb-col md="3" sm="6">
             <img
@@ -240,9 +242,9 @@
             />
           </mdb-col>
         </mdb-row>
-        <h4>ARE YOU READY TO BUILD A BRAND AND CREATE INFLUENCE ON THE INTERNET?</h4>
-        <h4>ORDER YOUR COPY OF YOUTUBE CHANNEL MASTERY BELOW</h4>
-        <mdb-btn class="d-block text-center mx-auto my-3" color="blue">
+        <h4 class="red">ARE YOU READY TO BUILD A BRAND AND CREATE INFLUENCE ON THE INTERNET?</h4>
+        <h4 class="red">ORDER YOUR COPY OF YOUTUBE CHANNEL MASTERY BELOW</h4>
+        <mdb-btn class="d-block text-center mx-auto my-3" color="orange">
           <a :href="url" target="_blank" rel="noopener noreferrer">Purchase your product here</a>
         </mdb-btn>
       </mdb-container>
@@ -295,6 +297,12 @@ p {
   margin-bottom: 0;
   font-size: 14px;
 }
+button[data-toggle]{
+  opacity: 0;
+}
+button{
+  background-color: orange !important;
+}
 button > a {
   color: white;
 }
@@ -317,4 +325,9 @@ li {
 .card {
   margin: 0.5rem 0;
 }
+.red{
+  color: red;
+  background-color: transparent !important;
+}
 </style>
+
