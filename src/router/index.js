@@ -1,6 +1,7 @@
 import Vue from "vue";
 import VueRouter from "vue-router";
 import HelloWorld from "@/components/HelloWorld";
+import DPM from "@/components/DPM";
 
 Vue.use(VueRouter);
 
@@ -10,8 +11,23 @@ const routes = [
     name: "HelloWorld",
     component: HelloWorld,
     meta: {
-      requiresAuth: true,
       title: "YOUTUBE MASTERY RELOADED REVIEW"
+    }
+  },
+  {
+    path: "/ymc",
+    name: "HelloWorld",
+    component: HelloWorld,
+    meta: {
+      title: "YOUTUBE MASTERY RELOADED REVIEW"
+    }
+  },
+  {
+    path: "/dpm",
+    name: "DPM",
+    component: DPM,
+    meta: {
+      title: "Digital product machine"
     }
   }
 ];
