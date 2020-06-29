@@ -48,14 +48,6 @@
         <div style="padding: 5rem 1rem">
             <mdb-container>
                 <mdb-row>
-                    <!-- <mdb-col sm="12" md="4">
-            <img
-              src="../assets/images/blogpost.jpeg"
-              class="img-fluid rounded mx-auto d-block my-4"
-              alt="course"
-              width="450px"
-            />
-          </mdb-col>-->
                     <mdb-col class="text-dark" sm="12" md="12">
                         <p class="p-3 text-black text-justify" style="line-height: 1.7rem">
                             This is what is great about about The <a :href="url" target="_blank"
@@ -79,7 +71,7 @@
                             <strong>(The price goes up tonight at midnight EDT)</strong>
                             
                         </p>
-                    </mdb-col>
+                    </mdb-col> 
                 </mdb-row>
             </mdb-container>
         </div>
@@ -158,12 +150,11 @@
                             </mdb-card-body>
                         </mdb-card>
                     </mdb-col>
-                    <mdb-col md="6" sm="12">
+                    <mdb-col md="12" lg="12" sm="12">
                         <mdb-card style="background-color: transparent">
                             <mdb-card-body>
                                 <mdb-card-title style="font-size: 1rem">Bonus</mdb-card-title>
                                 <p class="text-white">Our process map lays everything out step-by-step so you'll always know what to do next!</p>
-                                <p class="text-white">There are many more bonuses to get, great tools to make your marketing easier and more valuable, you'll be glad u purchased.</p>
                                 <!-- <mdb-card-title>Plus I’ve Got Some GREAT Bonus Content For You Too</mdb-card-title> -->
                                 <mdb-card-text>
                                     <!-- <ul>
@@ -180,14 +171,16 @@
                 <mdb-btn class="d-block text-center mx-auto my-3" color="orange">
                     <a :href="url" target="_blank" rel="noopener noreferrer">Purchase your product here</a>
                 </mdb-btn>
-                <p class="text-white text-justify" style="line-height: 1.7rem">P.S. - This isn’t just some ‘good idea turned into a product.’ Tom and Nick have tested this and are currently using this to make thousands of dollars per week.
-
-If you’re serious about turning crisis into opportunity and making 2020 your best year ever you owe it to yourself to take a look at this right now…</p>
+                <p class="text-white text-justify" style="line-height: 1.7rem">
+                    P.S. - This isn’t just some ‘good idea turned into a product.’ Tom and Nick have tested this and are currently using this to make thousands of dollars per week.
+                    If you’re serious about turning crisis into opportunity and making 2020 your best year ever you owe it to yourself to take a look at this right now…
+                </p>
             </mdb-container>
         </div>
-        <div style="padding: 4rem 4rem">
+        <div style="padding: 4rem 4rem; text-align:center;">
             <mdb-container>
                 <h2 class="mt-3 red">I HAVE GOT THESE GREAT BONUSES FOR YOU WENT PURCHASE YOUR PRODUCT</h2>
+                <p class="my-2">There are many more bonuses to get, great tools to make your marketing easier and more valuable, you'll be glad u purchased.</p>
                 <mdb-row>
                     <mdb-col md="3" sm="6">
                         <img height="175px" class="rounded d-block mx-auto py-2"
@@ -226,8 +219,8 @@ If you’re serious about turning crisis into opportunity and making 2020 your b
                             src="../assets/images/f9bef0c0-a700-4fbc-ac30-2e73eafb532d.jpeg" alt />
                     </mdb-col>
                 </mdb-row>
-                <h4 class="red">ARE YOU READY TO BUILD A BRAND AND CREATE INFLUENCE ON THE INTERNET?</h4>
-                <h4 class="red">ORDER YOUR COPY OF <span class="text-uppercase">{{title}}</span> BELOW</h4>
+                <h4 class="red">GET INSTANT ACCESS NOW</h4>
+                <!-- <h4 class="red">ORDER YOUR COPY OF <span class="text-uppercase">{{title}}</span> BELOW</h4> -->
                 <mdb-btn class="d-block text-center mx-auto my-3" color="orange">
                     <a :href="url" target="_blank" rel="noopener noreferrer">Purchase your product here</a>
                 </mdb-btn>
