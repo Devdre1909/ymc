@@ -3,18 +3,27 @@
     <mdb-navbar expand="large" dark color="indigo">
       <mdb-navbar-brand href="#">Toluwanimi Daniel</mdb-navbar-brand>
     </mdb-navbar>
+    <!-- Header -->
     <mdb-jumbotron
+      id="top"
       class="mb-0 justify-content-start align-items-center row"
-      style="background-color: #F7F7F7;"
+      style="background-color: #F7F7F7; margin: auto; width: 98%"
     >
       <div class="col-md-6 col-12">
         <h2 style="color: #141954" class="h1 text-uppercase">{{title}}</h2>
         <p class="my-4 font-weight-bold">UPDATED Tuesday, 7th July 2020</p>
         <mdb-row class="d-flex">
-          <mdb-col xl="7" class="pb-2">
+          <mdb-col class="pb-2">
             <p class="card-text">
-              ENSURE YOU READ THE
-              <a href="#important">IMPORTANCE NOTICE</a> SECTION BEFORE BUYING
+              If you don't like to read too much, just scroll down to the
+              <a href="#video">video</a>, watch it, check the
+              <a href="#features">features</a> and
+              <a href="#bonus">massive bonuses</a> I've prepared for you.
+              <br />
+              <br />Hit the GET ACCESS NOW button and check out massive massive testimonies from from dropshiply users and MAKE SURE YOU READ THE
+              <a
+                href="#important"
+              >IMPORTANCE NOTICE</a> BEFORE PROCEEDING.
             </p>
           </mdb-col>
         </mdb-row>
@@ -26,6 +35,7 @@
         <img width="100%" src="../assets/images/dropship.jpeg" alt />
       </div>
     </mdb-jumbotron>
+    <!-- Intro -->
     <div class="intro" style="background-color: #141954; padding: 4rem 3rem">
       <mdb-container class="my-3">
         <div class="text-justify text-white text-break" style="line-height: 1.7rem">
@@ -41,7 +51,9 @@
             style="color: #fff !important"
           >The problem is that most people spend hours and hours each day WASTING their time and money on Facebook ads that don’t work. If you’re anything like the masses, then you’re probably working with unreliable drop shippers, crappy products that no one really wants. Chances are, even when you can sell these products, you are UNHAPPY with the PATHETIC margins you receive.</p>
 
-          <p style="background-color: #e17304; padding: 1rem; color: white">
+          <p
+            style="border: 2px dotted rgba(255,255,255,0.6); padding: 1rem; color: white; box-shadow: 0 0 25px rgba(0,0,0,0.4);"
+          >
             But what if YOU had INSTANT access to thousands of the world’s most reliable dropshippers right at your fingertips?
             Imagine how incredible you’d feel if you had immediate access to the HOTTEST selling products on Facebook.
             But what if these products were coming from multiple reliable dropshippers so YOU NEVER TOUCH ANY INVENTORY and YOU NEVER pay for a product until the customerhas already PAID you in full?
@@ -64,6 +76,7 @@
         </mdb-btn>
       </mdb-container>
     </div>
+    <!-- Intro 2 -->
     <div style="background-color: #F7F7F7; padding: 4rem 3rem">
       <mdb-container class="my-3">
         <img width="38%" style="float: right" src="../assets/images/dropship.jpeg" alt />
@@ -83,7 +96,8 @@
         </mdb-btn>
       </mdb-container>
     </div>
-    <div class="intro" style="background-color: #141954; padding: 4rem 3rem">
+    <!-- Video -->
+    <div id="video" class="intro" style="background-color: #141954; padding: 4rem 3rem">
       <mdb-container class="my-3">
         <h3
           class="h3 text-white text-center"
@@ -109,7 +123,8 @@
         </mdb-btn>
       </mdb-container>
     </div>
-    <div style="background-color: #F7F7F7; padding: 4rem 3rem">
+    <!-- features -->
+    <div id="features" style="background-color: #F7F7F7; padding: 4rem 3rem">
       <mdb-container class="my-3">
         <mdb-row>
           <mdb-col class="features text-center" sm="12" md="3" lg="4">
@@ -298,7 +313,31 @@
         </mdb-btn>
       </mdb-container>
     </div>
-    <div style="background-color: #F7F7F7; padding: 4rem 3rem">
+    <!-- important -->
+    <mdb-container
+      id="important"
+      class="intro"
+      style="background-color: #e30000; padding: 4rem 3rem; border-radius: 25px 25px 0 0; box-shadow: 0 0 25px rgba(0,0,0,0.4)"
+    >
+      <mdb-container class="my-3">
+        <h3 class="h3 text-white text-center">IMPORTANT NOTICE</h3>
+        <p style="color: white; font-size: 16px">
+          The original price of DROPSHIPLY is $197, but Devid Farah is giving a special price throughout this launch. The Price will be increasing as the launch progresses, so you really want to purchase during the first 7hours of the Launch for $36(pro), $31.95(lite), with the $3 coupon code "dropshiply3off".
+          After the first 7 hours, the price will be $37, with a $2 coupon code (Devid Farah will give you the coupon code on his sales page) .
+          The launch starts July 8, 10AM EST.
+          <br />If you're seeing this after the $3 and $2 coupon expires, don't worry the price is still very discounted, but after the launch the price is going to SPIKE BACK UP, so purchase now!
+          You don't want to wish you've gotten the product after the price has been raised high.
+        </p>
+        <mdb-btn
+          class="d-block text-center mx-auto my-3"
+          style="background-color: #141954 !important"
+        >
+          <a :href="url" target="_blank" rel="noopener noreferrer">Get Access Now</a>
+        </mdb-btn>
+      </mdb-container>
+    </mdb-container>
+    <!-- bonus -->
+    <div id="bonus" style="background-color: #F7F7F7; padding: 4rem 3rem">
       <mdb-container class="my-3 text-center">
         <h2 class="red">I HAVE PACKED MASSIVE BONUSES FOR YOU, TO MAKE YOUR E-COMMERCE EASY</h2>
         <h4>These bonuses are great tools and aids you'll be very grateful that you got.</h4>
@@ -375,15 +414,88 @@
               alt
             />
           </mdb-col>
+          <mdb-col md="3" sm="6">
+            <img
+              height="175px"
+              class="rounded d-block mx-auto py-2"
+              src="../assets/images/WhatsApp Image 2020-07-03 at 9.27.00 PM.jpeg"
+              alt
+            />
+          </mdb-col>
+          <mdb-col md="3" sm="6">
+            <img
+              height="175px"
+              class="rounded d-block mx-auto py-2"
+              src="../assets/images/WhatsApp Image 2020-07-03 at 9.46.32 PM.jpeg"
+              alt
+            />
+          </mdb-col>
+          <mdb-col md="3" sm="6">
+            <img
+              height="175px"
+              class="rounded d-block mx-auto py-2"
+              src="../assets/images/WhatsApp Image 2020-07-03 at 9.46.32 PM (1).jpeg"
+              alt
+            />
+          </mdb-col>
+          <mdb-col md="3" sm="6">
+            <img
+              height="175px"
+              class="rounded d-block mx-auto py-2"
+              src="../assets/images/WhatsApp Image 2020-07-03 at 9.46.33 PM.jpeg"
+              alt
+            />
+          </mdb-col>
+          <mdb-col md="3" sm="6">
+            <img
+              height="175px"
+              class="rounded d-block mx-auto py-2"
+              src="../assets/images/WhatsApp Image 2020-07-03 at 9.46.33 PM (2).jpeg"
+              alt
+            />
+          </mdb-col>
+          <mdb-col md="3" sm="6">
+            <img
+              height="175px"
+              class="rounded d-block mx-auto py-2"
+              src="../assets/images/WhatsApp Image 2020-07-03 at 9.56.14 PM.jpeg"
+              alt
+            />
+          </mdb-col>
+          <mdb-col md="3" sm="6">
+            <img
+              height="175px"
+              class="rounded d-block mx-auto py-2"
+              src="../assets/images/WhatsApp Image 2020-07-04 at 10.13.20 AM.jpeg"
+              alt
+            />
+          </mdb-col>
+          <mdb-col md="3" sm="6">
+            <img
+              height="175px"
+              class="rounded d-block mx-auto py-2"
+              src="../assets/images/cover.jpg"
+              alt
+            />
+          </mdb-col>
+          <mdb-col md="3" sm="6">
+            <img
+              height="175px"
+              class="rounded d-block mx-auto py-2"
+              src="../assets/images/cover (1).jpg"
+              alt
+            />
+          </mdb-col>
         </mdb-row>
         <mdb-btn class="d-block text-center mx-auto my-3" color="orange">
           <a :href="url" target="_blank" rel="noopener noreferrer">Get Access Now</a>
         </mdb-btn>
       </mdb-container>
     </div>
+    <!-- Footer -->
     <mdb-footer fluid color="black" class="font-small pt-4 mt-4">
       <div class="footer-copyright text-center py-3">
-        <mdb-container fluid>&copy; 2020 Copyright: Toluwanimi</mdb-container>
+        <mdb-container fluid>&copy; {{new Date().getFullYear()}} Copyright: Toluwanimi</mdb-container>
       </div>
     </mdb-footer>
     <!-- Footer -->
