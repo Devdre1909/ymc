@@ -2,6 +2,7 @@ import Vue from "vue";
 import VueRouter from "vue-router";
 import HelloWorld from "@/components/HelloWorld";
 import DPM from "@/components/DPM";
+import Dropshipping from "@/components/Dropshipping";
 
 Vue.use(VueRouter);
 
@@ -28,6 +29,14 @@ const routes = [
     component: DPM,
     meta: {
       title: "Digital product machine"
+    }
+  },
+  {
+    path: "/dropshiply",
+    name: "DROP SHIPPING",
+    component: Dropshipping,
+    meta: {
+      title: "Dropshiply’s FB"
     }
   }
 ];

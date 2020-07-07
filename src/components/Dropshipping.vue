@@ -1,0 +1,414 @@
+<template>
+  <div>
+    <mdb-navbar expand="large" dark color="indigo">
+      <mdb-navbar-brand href="#">Toluwanimi Daniel</mdb-navbar-brand>
+    </mdb-navbar>
+    <mdb-jumbotron
+      class="mb-0 justify-content-start align-items-center row"
+      style="background-color: #F7F7F7;"
+    >
+      <div class="col-md-6 col-12">
+        <h2 style="color: #141954" class="h1 text-uppercase">{{title}}</h2>
+        <p class="my-4 font-weight-bold">Get Early Access | {{new Date().toDateString()}}</p>
+        <mdb-row class="d-flex">
+          <mdb-col xl="7" class="pb-2">
+            <p class="card-text">
+              Hello friend, how are you? I trust that you're staying safe. Today i'm reviewing a product
+              called
+              <a
+                :href="url"
+                target="_blank"
+                rel="noopener noreferrer"
+              >{{title}}</a>.
+            </p>
+          </mdb-col>
+        </mdb-row>
+        <mdb-btn class="text-center mx-0 mr-2 my-3" color="orange" icon="cart-plus" iconRight>
+          <a :href="url" target="_blank" rel="noopener noreferrer">Get Access Now</a>
+        </mdb-btn>
+        <mdb-btn
+          class="text-center mx-0 ml-2 my-3"
+          style="background-color: #333 !important"
+          color="black"
+        >
+          <a :href="url" target="_blank" rel="noopener noreferrer">Know More</a>
+        </mdb-btn>
+      </div>
+      <div class="col-md-6 col-12">
+        <img width="100%" src="../assets/images/dropship.jpeg" alt />
+      </div>
+    </mdb-jumbotron>
+    <div class="intro" style="background-color: #141954; padding: 4rem 3rem">
+      <mdb-container class="my-3">
+        <p class="text-justify text-white text-break" style="line-height: 1.7rem">
+          Hello Ecom enthusiasts, newbies, those of you who have come a long in trying to drive up sales, I am very happy for the opportunity to present to you the valueable method you have been looking for and want.
+          Now when it comes to running an insanely PROFITABLE dropshipping business, there is ONLY one thing that matters!
+          It doesn’t matter how hard you work, how much time you put in or how much money you invest. It doesn’t matter how BADLY you want to be successful
+          YOU will fail miserably like 98% of other ecom marketers if you don’t understand one secret!
+          The problem is that most people spend hours and hours each day WASTING their time and money on Facebook ads that don’t work. If you’re anything like the masses, then you’re probably working with unreliable drop shippers, crappy products that no one really wants. Chances are, even when you can sell these products, you are UNHAPPY with the PATHETIC margins you receive.
+          But what if YOU had INSTANT access to thousands of the world’s most reliable dropshippers right at your fingertips?
+          Imagine how incredible you’d feel if you had immediate access to the HOTTEST selling products on Facebook.
+          But what if these products were coming from multiple reliable dropshippers so YOU NEVER TOUCH ANY INVENTORY and YOU NEVER pay for a product until the customerhas already PAID you in full?
+          Picture how INCREDIBLE you’d feel if you knew EXACTLY how to target the PERFECT buyers for these products on Facebook all using our 100% automated software!
+          Well, imagine no more because the most comprehensive dropship training and most powerful automated dropship ecommerce software has just been
+          released, it's called
+          <a
+            :href="url"
+            target="_blank"
+            style="text-decoration: underline; font-weight: 700"
+            rel="noopener noreferrer"
+          >{{title}}</a>. You are getting a comprehensive training, access to successful dropshippers like you, then THE POWERFUL SOFTWARE.
+        </p>
+        <mdb-btn class="d-block text-center mx-auto my-3" color="orange">
+          <a :href="url" target="_blank" rel="noopener noreferrer">Get Access Now</a>
+        </mdb-btn>
+      </mdb-container>
+    </div>
+    <div style="background-color: #F7F7F7; padding: 4rem 3rem">
+      <mdb-container class="my-3">
+        <p class="text-justify text-dark text-break" style="line-height: 1.7rem">
+          Dropshiply is the most POWERFUL software app on the market that AUTOMATES 97% of your entire dropshipping business. It is a complete “full blown” ecommerce platform that will get you a complete dropshipping store in literally minutes, with just few clicks of a mouse, you can start selling the HOTTEST products at the LOWEST prices WITHOUT ever touching any inventory or spending a single dime before the sale is made and YOU are paid in full i.e you don't pay for a product until your buyer has paid.
+          Dropshiply’s FB ad targeting tool makes sure your targeting is always spot on - so every time you launch a campaign, it almost always will turn green.
+          I know you don't like to spend too much time and money trying to build a business, you appreciate INSTANT done-for-you solutions. That's what dropshiply is here for. It does all the hardwork for you, just create and run your store by Literally just clicking a few buttons.
+          You can connect your store or create one from complete scratch and run your business inside Dropshiply. This is the biggest level of automation.
+          ...And best part? It doesn’t need Shopify, so no more monthly fees!
+          This same system and strategies are what Devid’s students have personally used to make $2.6 Million with their eCom stores! This 7-step system will INSTANTLY reveal how to easily create your store, finding a hot niche, get immediate access to superb dropship products at up to 90% BELOW retail prices and profit INSANELY right from day 1!
+        </p>
+        <mdb-btn class="d-block text-center mx-auto my-3" color="orange">
+          <a :href="url" target="_blank" rel="noopener noreferrer">Get Access Now</a>
+        </mdb-btn>
+      </mdb-container>
+    </div>
+    <div class="intro" style="background-color: #141954; padding: 4rem 3rem">
+      <mdb-container class="my-3">
+        <h3
+          class="h3 text-white text-center"
+        >This is one product you cannot afford to miss if you want to be successful in e-commerce. Check out its features.</h3>
+        <div style="padding:56.25% 0 0 0;position:relative;">
+          <iframe
+            class="my-3"
+            src="https://player.vimeo.com/video/386615238?title=0&byline=0&portrait=0"
+            style="position:absolute;top:0;left:0;width:100%;height:100%;"
+            frameborder="0"
+            allow="autoplay; fullscreen"
+            allowfullscreen
+          ></iframe>
+        </div>
+        <p class="text-white mt-4">
+          <a style="text-decoration: underline" href="https://vimeo.com/386615238">Dropshiply Demo</a> from
+          <a href="https://vimeo.com/user55817191">Devid Farah</a> on
+          <a href="https://vimeo.com">Vimeo</a>.
+        </p>
+        <p></p>
+        <mdb-btn class="d-block text-center mx-auto my-3" color="orange">
+          <a :href="url" target="_blank" rel="noopener noreferrer">Get Access Now</a>
+        </mdb-btn>
+      </mdb-container>
+    </div>
+    <div style="background-color: #F7F7F7; padding: 4rem 3rem">
+      <mdb-container class="my-3">
+        <mdb-row>
+          <mdb-col class="features text-center" sm="12" md="3" lg="4">
+            <i class="fab fa-wordpress fa-2x mx-2"></i>
+            <h4 class="title h4">WP Connect</h4>
+            <p class="details">Automatically integrate Dropshiply fully with your existing WP stores</p>
+          </mdb-col>
+          <mdb-col class="features text-center" sm="12" md="3" lg="4">
+            <i class="fas fa-store fa-2x mx-2"></i>
+            <h4 class="title h4">Store Stats</h4>
+            <p
+              class="details"
+            >Instantly see and manage all the data from your stores right here inside your dashboard</p>
+          </mdb-col>
+          <mdb-col class="features text-center" sm="12" md="3" lg="4">
+            <i class="far fa-grin-stars fa-2x mx-2"></i>
+            <h4 class="title h4">SEO Stats</h4>
+            <p class="details">
+              Get full SEO statistics.. title, meta description, domain authority, page authority, page rank, seo score, Alexa global rank,
+              country rank &amp; more!
+            </p>
+          </mdb-col>
+          <mdb-col class="features text-center" sm="12" md="3" lg="4">
+            <i class="fa fa-search-plus fa-2x mx-2" aria-hidden="true"></i>
+            <h4 class="title h4">Instant Domain Search</h4>
+            <p
+              class="details"
+            >Don’t have a domain for your store? No problem! Dropshiply's instant domain generator will pick a domain for you in seconds!</p>
+          </mdb-col>
+          <mdb-col class="features text-center" sm="12" md="3" lg="4">
+            <i class="fas fa-money-bill-alt fa-2x mx-2"></i>
+            <h4 class="title h4">Niche Intelligence Technology</h4>
+            <p class="details">Know which niches will GENERATE MONEY before creating your store!</p>
+          </mdb-col>
+          <mdb-col class="features text-center" sm="12" md="3" lg="4">
+            <i class="fas fa-toolbox fa-2x mx-2"></i>
+            <h4 class="title h4">Ali Express Spy Tool</h4>
+            <p
+              class="details"
+            >The entire AliExpress platform has been integrated inside Dropshiply so you can find THOUSANDS of products that are impossible to even know exist without hours of laborious research!</p>
+          </mdb-col>
+          <mdb-col class="features text-center" sm="12" md="3" lg="4">
+            <i class="fab fa-ebay fa-2x mx-2"></i>
+            <h4 class="title h4">eBay Spy</h4>
+            <p
+              class="details"
+            >Identify top eBay products and get product ideas from top competition so you can predict how sales will go!</p>
+          </mdb-col>
+          <mdb-col class="features text-center" sm="12" md="3" lg="4">
+            <i class="far fa-toolbox fa-2x mx-2"></i>
+            <h4 class="title h4">Walmart Product Finder</h4>
+            <p
+              class="details"
+            >Uncover unlimited products on Walmart, you can sell on your store right away!</p>
+          </mdb-col>
+          <mdb-col class="features text-center" sm="12" md="3" lg="4">
+            <i class="fas fa-toolbox fa-2x mx-2"></i>
+            <h4 class="title h4">Alexa Spy</h4>
+            <p
+              class="details"
+            >Discover traffic stats and global rankings of millions of websites and exploit untapped markets</p>
+          </mdb-col>
+          <mdb-col class="features text-center" sm="12" md="3" lg="4">
+            <i class="fab fa-facebook-f fa-2x mx-2"></i>
+            <h4 class="title h4">FB Interest Explorer</h4>
+            <p
+              class="details"
+            >Uncover thousands of profitable interest keyword phrases for your FB ad campaigns</p>
+          </mdb-col>
+          <mdb-col class="features text-center" sm="12" md="3" lg="4">
+            <i class="fas fa-edit fa-2x mx-2"></i>
+            <h4 class="title h4">Built In-App Editor</h4>
+            <p class="details">
+              Don't like a particular element? No problem! Instantly edit product descriptions, title, price, tags, category, images, variants
+              and more!
+            </p>
+          </mdb-col>
+          <mdb-col class="features text-center" sm="12" md="3" lg="4">
+            <i class="fas fa-cogs fa-2x mx-2"></i>
+            <h4 class="title h4">1-Click Product Importer</h4>
+            <p
+              class="details"
+            >Import hundreds of products to your store within minutes one single click!</p>
+          </mdb-col>
+          <mdb-col class="features text-center" sm="12" md="3" lg="4">
+            <i class="fas fa-store-alt fa-2x mx-2"></i>
+            <h4 class="title h4">Store Manager</h4>
+            <p class="details">Manage all your products, orders and customers in one click!</p>
+          </mdb-col>
+          <mdb-col class="features text-center" sm="12" md="3" lg="4">
+            <i class="fas fa-first-order fa-2x mx-2"></i>
+            <h4 class="title h4">Manage Orders</h4>
+            <p
+              class="details"
+            >View, edit, delete orders here! See all details.. product name, sku, quantity, price, billing and shipping info and more!</p>
+          </mdb-col>
+          <mdb-col class="features text-center" sm="12" md="3" lg="4">
+            <i class="fas fa-product-hunt fa-2x mx-2"></i>
+            <h4 class="title h4">Manage Products</h4>
+            <p
+              class="details"
+            >The “Server Side Processing” technology lets you manage all your products at once!</p>
+          </mdb-col>
+          <mdb-col class="features text-center" sm="12" md="3" lg="4">
+            <i class="fas fa-users-cog fa-2x mx-2"></i>
+            <h4 class="title h4">Manage Customers</h4>
+            <p
+              class="details"
+            >All customers are instantly tracked and displayed in Dropshiply. All new orders on your store will also automatically update here!</p>
+          </mdb-col>
+          <mdb-col class="features text-center" sm="12" md="3" lg="4">
+            <i class="fas fa-list-alt fa-2x mx-2"></i>
+            <h4 class="title h4">Manage Multiple Listings</h4>
+            <p
+              class="details"
+            >Instantly publish a new listing, manage multiple listings or edit all existing listings.</p>
+          </mdb-col>
+          <mdb-col class="features text-center" sm="12" md="3" lg="4">
+            <i class="fas fa-sync fa-2x mx-2"></i>
+            <h4 class="title h4">Sync Orders</h4>
+            <p
+              class="details"
+            >All orders in your stores will be automatically synced to Dropshiply in real-time!</p>
+          </mdb-col>
+          <mdb-col class="features text-center" sm="12" md="3" lg="4">
+            <i class="fas fa-autoprefixer fa-2x mx-2"></i>
+            <h4 class="title h4">Auto Order Technology</h4>
+            <p class="details">Dropshiply places the order and fills out the address with one-click!</p>
+          </mdb-col>
+          <mdb-col class="features text-center" sm="12" md="3" lg="4">
+            <i class="fas fa-watch fa-2x mx-2"></i>
+            <h4 class="title h4">Product Watchdogs</h4>
+            <p class="details">Watch for all the price changes and automatically update them.</p>
+          </mdb-col>
+          <mdb-col class="features text-center" sm="12" md="3" lg="4">
+            <i class="fas fa-cogs fa-2x mx-2"></i>
+            <h4 class="title h4">Inventory Watchdog</h4>
+            <p
+              class="details"
+            >Keeps an eye on inventory changes and automatically restock products. You’ll never sell something your vendor ran out of!</p>
+          </mdb-col>
+          <mdb-col class="features text-center" sm="12" md="3" lg="4">
+            <i class="fas fa-money-check fa-2x mx-2"></i>
+            <h4 class="title h4">Inbuilt Pricing Margins</h4>
+            <p
+              class="details"
+            >Create pricing rules so you can have consistent margins for all the products you sell!</p>
+          </mdb-col>
+          <mdb-col class="features text-center" sm="12" md="3" lg="4">
+            <i class="fas fa-power-off fa-2x mx-2"></i>
+            <p
+              class="details"
+            >Dropshiply fully integrates with WooCommerce so you can have all your products displayed in your dashboard.</p>
+          </mdb-col>
+          <mdb-col class="features text-center" sm="12" md="3" lg="4">
+            <i class="fab fa-app-store fa-2x mx-2"></i>
+            <h4 class="title h4">Inbuilt App Store</h4>
+            <p
+              class="details"
+            >Dropshiply has a built in App Store where you can download our Free and Paid ecommerce apps to grow your business and improve your traffic, marketing and sales!</p>
+          </mdb-col>
+          <mdb-col class="features text-center" sm="12" md="3" lg="4">
+            <i class="fab fa-themeco fa-2x mx-2"></i>
+            <h4 class="title h4">Premium Themes</h4>
+            <p
+              class="details"
+            >The Theme Store includes over 100 free and premium professionally designed ecommerce themes that you can use for your own store!</p>
+          </mdb-col>
+          <mdb-col class="features text-center" sm="12" md="3" lg="4">
+            <i class="fas fa-spider-web fa-2x mx-2"></i>
+            <h4 class="title h4">20+ Api Integration</h4>
+            <p
+              class="details"
+            >Dropshiply easily integrates with 20+ apis to make your life and work easier and faster!</p>
+          </mdb-col>
+          <mdb-col class="features text-center" sm="12" md="3" lg="4">
+            <i class="fas fa-envelope fa-2x mx-2"></i>
+            <h4 class="title h4">Autoresponder and Email Integration</h4>
+            <p
+              class="details"
+            >Dropshiply has direct integrations with Aweber, GetResponse, Mailchimp and Sendy. You can also integrate with any other app with our custom integrations</p>
+          </mdb-col>
+        </mdb-row>
+        <mdb-btn class="d-block text-center mx-auto my-3" color="orange">
+          <a :href="url" target="_blank" rel="noopener noreferrer">Get Access Now</a>
+        </mdb-btn>
+      </mdb-container>
+    </div>
+  </div>
+</template>
+
+<script>
+import {
+  mdbJumbotron,
+  mdbRow,
+  mdbCol,
+  mdbBtn,
+  mdbContainer,
+  mdbNavbar,
+  mdbNavbarBrand
+} from "mdbvue";
+
+export default {
+  mounted() {
+    let vimeo = document.createElement("script");
+    vimeo.setAttribute("src", "https://player.vimeo.com/api/player.js");
+    document.head.appendChild(vimeo);
+  },
+  data() {
+    return {
+      url: "https://warriorplus.com/o2/a/b9x3h/0",
+      title: "DROPSHIPLY"
+    };
+  },
+  components: {
+    mdbNavbar,
+    mdbNavbarBrand,
+    mdbContainer,
+    mdbJumbotron,
+    mdbCol,
+    mdbRow,
+    mdbBtn
+  }
+};
+</script>
+
+<style scoped>
+p {
+  color: #353535;
+  margin-bottom: 0;
+  font-size: 16px;
+}
+
+a {
+  color: #141954;
+  font-weight: bold;
+}
+
+button[data-toggle] {
+  opacity: 0;
+}
+
+button {
+  background-color: #e17304;
+}
+
+button > a {
+  color: white;
+}
+
+.intro a {
+  color: white !important;
+  font-weight: 400;
+}
+
+.text-dark li {
+  list-style-type: circle;
+}
+
+ul {
+  font-size: 0.9rem;
+  list-style-type: none;
+  padding-inline-start: 0;
+}
+
+.text-dark li {
+  color: #222;
+}
+
+li {
+  margin: 5px 0;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.card-title {
+  font-size: 1.2rem;
+}
+
+.card {
+  margin: 0.5rem 0;
+}
+
+.red {
+  color: red;
+  background-color: transparent !important;
+}
+
+.features {
+  padding: 1rem;
+}
+
+.features i {
+  color: #e17304;
+  margin-bottom: 1rem;
+}
+
+.features .title {
+  font-size: 16px;
+}
+
+.features .details {
+  font-size: 14px;
+  width: 80%;
+  margin: auto;
+}
+</style>
