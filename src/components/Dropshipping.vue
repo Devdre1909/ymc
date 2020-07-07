@@ -9,17 +9,12 @@
     >
       <div class="col-md-6 col-12">
         <h2 style="color: #141954" class="h1 text-uppercase">{{title}}</h2>
-        <p class="my-4 font-weight-bold">Get Early Access | {{new Date().toDateString()}}</p>
+        <p class="my-4 font-weight-bold">UPDATED Tuesday, 7th July 2020</p>
         <mdb-row class="d-flex">
           <mdb-col xl="7" class="pb-2">
             <p class="card-text">
-              Hello friend, how are you? I trust that you're staying safe. Today i'm reviewing a product
-              called
-              <a
-                :href="url"
-                target="_blank"
-                rel="noopener noreferrer"
-              >{{title}}</a>.
+              ENSURE YOU READ THE
+              <a href="#important">IMPORTANCE NOTICE</a> SECTION BEFORE BUYING
             </p>
           </mdb-col>
         </mdb-row>
@@ -33,25 +28,37 @@
     </mdb-jumbotron>
     <div class="intro" style="background-color: #141954; padding: 4rem 3rem">
       <mdb-container class="my-3">
-        <p class="text-justify text-white text-break" style="line-height: 1.7rem">
-          Hello Ecom enthusiasts, newbies, those of you who have come a long in trying to drive up sales, I am very happy for the opportunity to present to you the valueable method you have been looking for and want.
-          Now when it comes to running an insanely PROFITABLE dropshipping business, there is ONLY one thing that matters!
-          It doesn’t matter how hard you work, how much time you put in or how much money you invest. It doesn’t matter how BADLY you want to be successful
-          YOU will fail miserably like 98% of other ecom marketers if you don’t understand one secret!
-          The problem is that most people spend hours and hours each day WASTING their time and money on Facebook ads that don’t work. If you’re anything like the masses, then you’re probably working with unreliable drop shippers, crappy products that no one really wants. Chances are, even when you can sell these products, you are UNHAPPY with the PATHETIC margins you receive.
-          But what if YOU had INSTANT access to thousands of the world’s most reliable dropshippers right at your fingertips?
-          Imagine how incredible you’d feel if you had immediate access to the HOTTEST selling products on Facebook.
-          But what if these products were coming from multiple reliable dropshippers so YOU NEVER TOUCH ANY INVENTORY and YOU NEVER pay for a product until the customerhas already PAID you in full?
-          Picture how INCREDIBLE you’d feel if you knew EXACTLY how to target the PERFECT buyers for these products on Facebook all using our 100% automated software!
-          Well, imagine no more because the most comprehensive dropship training and most powerful automated dropship ecommerce software has just been
-          released, it's called
-          <a
-            :href="url"
-            target="_blank"
-            style="text-decoration: underline; font-weight: 700"
-            rel="noopener noreferrer"
-          >{{title}}</a>. You are getting a comprehensive training, access to successful dropshippers like you, then THE POWERFUL SOFTWARE.
-        </p>
+        <div class="text-justify text-white text-break" style="line-height: 1.7rem">
+          <p
+            style="color: #fff !important"
+          >Hello Ecom enthusiasts, newbies, those of you who have come a long in trying to drive up sales, I am very happy for the opportunity to present to you the valueable method you have been looking for and want.</p>
+          <p style="color: #fff !important">
+            Now when it comes to running an insanely PROFITABLE dropshipping business, there is ONLY one thing that matters!
+            It doesn’t matter how hard you work, how much time you put in or how much money you invest. It doesn’t matter how BADLY you want to be successful
+            YOU will fail miserably like 98% of other ecom marketers if you don’t understand one secret!
+          </p>
+          <p
+            style="color: #fff !important"
+          >The problem is that most people spend hours and hours each day WASTING their time and money on Facebook ads that don’t work. If you’re anything like the masses, then you’re probably working with unreliable drop shippers, crappy products that no one really wants. Chances are, even when you can sell these products, you are UNHAPPY with the PATHETIC margins you receive.</p>
+
+          <p style="background-color: #e17304; padding: 1rem; color: white">
+            But what if YOU had INSTANT access to thousands of the world’s most reliable dropshippers right at your fingertips?
+            Imagine how incredible you’d feel if you had immediate access to the HOTTEST selling products on Facebook.
+            But what if these products were coming from multiple reliable dropshippers so YOU NEVER TOUCH ANY INVENTORY and YOU NEVER pay for a product until the customerhas already PAID you in full?
+            Picture how INCREDIBLE you’d feel if you knew EXACTLY how to target the PERFECT buyers for these products on Facebook all using our 100% automated software!
+          </p>
+
+          <p style="color: white !important">
+            Well, imagine no more because the most comprehensive dropship training and most powerful automated dropship ecommerce software has just been
+            released, it's called
+            <a
+              :href="url"
+              target="_blank"
+              style="text-decoration: underline; font-weight: 700"
+              rel="noopener noreferrer"
+            >{{title}}</a>. You are getting a comprehensive training, access to successful dropshippers like you, then THE POWERFUL SOFTWARE.
+          </p>
+        </div>
         <mdb-btn class="d-block text-center mx-auto my-3" color="orange">
           <a :href="url" target="_blank" rel="noopener noreferrer">Get Access Now</a>
         </mdb-btn>
@@ -60,14 +67,17 @@
     <div style="background-color: #F7F7F7; padding: 4rem 3rem">
       <mdb-container class="my-3">
         <img width="38%" style="float: right" src="../assets/images/dropship.jpeg" alt />
-        <p class="text-justify text-dark text-break" style="line-height: 1.7rem">
-          Dropshiply is the most POWERFUL software app on the market that AUTOMATES 97% of your entire dropshipping business. It is a complete “full blown” ecommerce platform that will get you a complete dropshipping store in literally minutes, with just few clicks of a mouse, you can start selling the HOTTEST products at the LOWEST prices WITHOUT ever touching any inventory or spending a single dime before the sale is made and YOU are paid in full i.e you don't pay for a product until your buyer has paid.
-          Dropshiply’s FB ad targeting tool makes sure your targeting is always spot on - so every time you launch a campaign, it almost always will turn green.
+        <p class="text-justify text-dark text-break" style="line-height: 1.7rem"></p>
+        <p>Dropshiply is the most POWERFUL software app on the market that AUTOMATES 97% of your entire dropshipping business. It is a complete “full blown” ecommerce platform that will get you a complete dropshipping store in literally minutes, with just few clicks of a mouse, you can start selling the HOTTEST products at the LOWEST prices WITHOUT ever touching any inventory or spending a single dime before the sale is made and YOU are paid in full i.e you don't pay for a product until your buyer has paid.</p>
+
+        <p>Dropshiply’s FB ad targeting tool makes sure your targeting is always spot on - so every time you launch a campaign, it almost always will turn green.</p>
+
+        <p>
           I know you don't like to spend too much time and money trying to build a business, you appreciate INSTANT done-for-you solutions. That's what dropshiply is here for. It does all the hardwork for you, just create and run your store by Literally just clicking a few buttons.
           You can connect your store or create one from complete scratch and run your business inside Dropshiply. This is the biggest level of automation.
           ...And best part? It doesn’t need Shopify, so no more monthly fees!
-          This same system and strategies are what Devid’s students have personally used to make $2.6 Million with their eCom stores! This 7-step system will INSTANTLY reveal how to easily create your store, finding a hot niche, get immediate access to superb dropship products at up to 90% BELOW retail prices and profit INSANELY right from day 1!
         </p>
+        <p>This same system and strategies are what Devid’s students have personally used to make $2.6 Million with their eCom stores! This 7-step system will INSTANTLY reveal how to easily create your store, finding a hot niche, get immediate access to superb dropship products at up to 90% BELOW retail prices and profit INSANELY right from day 1!</p>
         <mdb-btn class="d-block text-center mx-auto my-3" color="orange">
           <a :href="url" target="_blank" rel="noopener noreferrer">Get Access Now</a>
         </mdb-btn>
@@ -93,7 +103,7 @@
           <a href="https://vimeo.com/user55817191">Devid Farah</a> on
           <a href="https://vimeo.com">Vimeo</a>.
         </p>
-        <p></p>
+        <h5 class="text-center my-2" style="color: white">WATCH THE DROPSHIPLY SOFTWARE IN ACTION</h5>
         <mdb-btn class="d-block text-center mx-auto my-3" color="orange">
           <a :href="url" target="_blank" rel="noopener noreferrer">Get Access Now</a>
         </mdb-btn>
@@ -288,11 +298,101 @@
         </mdb-btn>
       </mdb-container>
     </div>
+    <div style="background-color: #F7F7F7; padding: 4rem 3rem">
+      <mdb-container class="my-3 text-center">
+        <h2 class="red">I HAVE PACKED MASSIVE BONUSES FOR YOU, TO MAKE YOUR E-COMMERCE EASY</h2>
+        <h4>These bonuses are great tools and aids you'll be very grateful that you got.</h4>
+        <mdb-row>
+          <mdb-col md="3" sm="6">
+            <img
+              height="175px"
+              class="rounded d-block mx-auto py-2"
+              src="../assets/images/3ee04468-dd18-460d-a64d-c55f3e95967a.jpeg"
+              alt
+            />
+          </mdb-col>
+          <mdb-col md="3" sm="6">
+            <img
+              height="175px"
+              class="rounded d-block mx-auto py-2"
+              src="../assets/images/5d3f4807-9a36-44af-a77a-d128fd6ccc65.jpeg"
+              alt
+            />
+          </mdb-col>
+          <mdb-col md="3" sm="6">
+            <img
+              height="175px"
+              class="rounded d-block mx-auto py-2"
+              src="../assets/images/41db52a6-7111-4d1b-8122-c87fe21b96be.jpeg"
+              alt
+            />
+          </mdb-col>
+          <mdb-col md="3" sm="6">
+            <img
+              height="175px"
+              class="rounded d-block mx-auto py-2"
+              src="../assets/images/1624f744-9c80-4df7-9602-3d19db94e48f.jpeg"
+              alt
+            />
+          </mdb-col>
+          <mdb-col md="3" sm="6">
+            <img
+              height="175px"
+              class="rounded d-block mx-auto py-2"
+              src="../assets/images/90578ecf-16e6-45e3-a084-d543bb4d7564.jpeg"
+              alt
+            />
+          </mdb-col>
+          <mdb-col md="3" sm="6">
+            <img
+              height="175px"
+              class="rounded d-block mx-auto py-2"
+              src="../assets/images/8978587d-9b8f-446d-be32-cb64b7f33dfc.jpeg"
+              alt
+            />
+          </mdb-col>
+          <mdb-col md="3" sm="6">
+            <img
+              height="175px"
+              class="rounded d-block mx-auto py-2"
+              src="../assets/images/c1782bd8-0036-4e7b-b68a-1687f632c6fc.jpeg"
+              alt
+            />
+          </mdb-col>
+          <mdb-col md="3" sm="6">
+            <img
+              height="175px"
+              class="rounded d-block mx-auto py-2"
+              src="../assets/images/d54f9818-457c-4e05-a14e-8e88d130ebcb.jpeg"
+              alt
+            />
+          </mdb-col>
+          <mdb-col md="3" sm="6">
+            <img
+              height="175px"
+              class="rounded d-block mx-auto py-2"
+              src="../assets/images/f9bef0c0-a700-4fbc-ac30-2e73eafb532d.jpeg"
+              alt
+            />
+          </mdb-col>
+        </mdb-row>
+        <mdb-btn class="d-block text-center mx-auto my-3" color="orange">
+          <a :href="url" target="_blank" rel="noopener noreferrer">Get Access Now</a>
+        </mdb-btn>
+      </mdb-container>
+    </div>
+    <mdb-footer fluid color="black" class="font-small pt-4 mt-4">
+      <div class="footer-copyright text-center py-3">
+        <mdb-container fluid>&copy; 2020 Copyright: Toluwanimi</mdb-container>
+      </div>
+    </mdb-footer>
+    <!-- Footer -->
   </div>
 </template>
 
 <script>
 import {
+  mdbFooter,
   mdbJumbotron,
   mdbRow,
   mdbCol,
@@ -315,6 +415,7 @@ export default {
     };
   },
   components: {
+    mdbFooter,
     mdbNavbar,
     mdbNavbarBrand,
     mdbContainer,
@@ -329,8 +430,9 @@ export default {
 <style scoped>
 p {
   color: #353535;
-  margin-bottom: 0;
-  font-size: 16px;
+  margin-bottom: 1rem;
+  font-size: 0.8rem;
+  line-height: 1.6rem;
 }
 
 a {
