@@ -26,13 +26,6 @@
         <mdb-btn class="text-center mx-0 mr-2 my-3" color="orange" icon="cart-plus" iconRight>
           <a :href="url" target="_blank" rel="noopener noreferrer">Get Access Now</a>
         </mdb-btn>
-        <mdb-btn
-          class="text-center mx-0 ml-2 my-3"
-          style="background-color: #333 !important"
-          color="black"
-        >
-          <a :href="url" target="_blank" rel="noopener noreferrer">Know More</a>
-        </mdb-btn>
       </div>
       <div class="col-md-6 col-12">
         <img width="100%" src="../assets/images/dropship.jpeg" alt />
@@ -66,6 +59,7 @@
     </div>
     <div style="background-color: #F7F7F7; padding: 4rem 3rem">
       <mdb-container class="my-3">
+        <img width="38%" style="float: right" src="../assets/images/dropship.jpeg" alt />
         <p class="text-justify text-dark text-break" style="line-height: 1.7rem">
           Dropshiply is the most POWERFUL software app on the market that AUTOMATES 97% of your entire dropshipping business. It is a complete “full blown” ecommerce platform that will get you a complete dropshipping store in literally minutes, with just few clicks of a mouse, you can start selling the HOTTEST products at the LOWEST prices WITHOUT ever touching any inventory or spending a single dime before the sale is made and YOU are paid in full i.e you don't pay for a product until your buyer has paid.
           Dropshiply’s FB ad targeting tool makes sure your targeting is always spot on - so every time you launch a campaign, it almost always will turn green.
@@ -316,7 +310,7 @@ export default {
   },
   data() {
     return {
-      url: "https://warriorplus.com/o2/a/b9x3h/0",
+      url: "https://jvz6.com/c/1613019/347359",
       title: "DROPSHIPLY"
     };
   },
@@ -394,6 +388,10 @@ li {
 }
 
 .features {
+  padding: 1rem;
+}
+
+.features:hover {
   padding: 1rem;
 }
 
