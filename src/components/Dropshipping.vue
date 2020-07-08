@@ -328,10 +328,7 @@
           <br />If you're seeing this after the $3 and $2 coupon expires, don't worry the price is still very discounted, but after the launch the price is going to SPIKE BACK UP, so purchase now!
           You don't want to wish you've gotten the product after the price has been raised high.
         </p>
-        <mdb-btn
-          class="d-block text-center mx-auto my-3"
-	  color: "orange"
-        >
+        <mdb-btn class="d-block text-center mx-auto my-3" color="orange">
           <a :href="url" target="_blank" rel="noopener noreferrer">Get Access Now</a>
         </mdb-btn>
       </mdb-container>
