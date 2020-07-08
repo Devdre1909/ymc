@@ -317,11 +317,11 @@
     <mdb-container
       id="important"
       class="intro"
-      style="background-color: #e30000; padding: 4rem 3rem; border-radius: 25px 25px 0 0; box-shadow: 0 0 25px rgba(0,0,0,0.4)"
+      style="background-color: #fff; padding: 4rem 3rem; border-radius: 25px 25px 0 0; box-shadow: 0 0 25px rgba(0,0,0,0.4)"
     >
       <mdb-container class="my-3">
-        <h3 class="h3 text-white text-center">IMPORTANT NOTICE</h3>
-        <p style="color: white; font-size: 16px">
+        <h3 class="h3 red text-center">IMPORTANT NOTICE</h3>
+        <p style="color: #333; font-size: 16px">
           The original price of DROPSHIPLY is $197, but Devid Farah is giving a special price throughout this launch. The Price will be increasing as the launch progresses, so you really want to purchase during the first 7hours of the Launch for $36(pro), $31.95(lite), with the $3 coupon code "dropshiply3off".
           After the first 7 hours, the price will be $37, with a $2 coupon code (Devid Farah will give you the coupon code on his sales page) .
           The launch starts July 8, 10AM EST.
