@@ -317,7 +317,7 @@
     <mdb-container
       id="important"
       class="intro"
-      style="background-color: #fff; padding: 4rem 3rem; border-radius: 25px 25px 0 0; box-shadow: 0 0 25px rgba(0,0,0,0.4)"
+      style="background-color: #fff; padding: 4rem 3rem; border-radius: 25px 25px 0 0; box-shadow: 0 0 25px rgba(0,0,0,0.1)"
     >
       <mdb-container class="my-3">
         <h3 class="h3 red text-center">IMPORTANT NOTICE</h3>
@@ -330,7 +330,7 @@
         </p>
         <mdb-btn
           class="d-block text-center mx-auto my-3"
-          style="background-color: #141954 !important"
+	  color: "orange"
         >
           <a :href="url" target="_blank" rel="noopener noreferrer">Get Access Now</a>
         </mdb-btn>
