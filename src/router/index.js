@@ -9,7 +9,7 @@ Vue.use(VueRouter);
 const routes = [
   {
     path: "/",
-    name: "HelloWorld",
+    name: "Index",
     component: HelloWorld,
     meta: {
       title: "YOUTUBE MASTERY RELOADED REVIEW"
@@ -17,7 +17,7 @@ const routes = [
   },
   {
     path: "/ymc",
-    name: "HelloWorld",
+    name: "YMC",
     component: HelloWorld,
     meta: {
       title: "YOUTUBE MASTERY RELOADED REVIEW"
